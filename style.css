@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 32);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(13, 13, 82);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: rgb(108, 108, 229);
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(108, 108, 229);
+    height: 1px;
+    margin: 40px 84px;
+}
+
+.headings {
+    font-size: 2rem;
+    color: white;
+    width: 500px;
+    padding: 50px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.left {
+    font-size: 1.5rem;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+    margin-left: 200px;
+}
+
+.rightSection{
+    margin-right: 200px;
+}
+
+.purple {
+    color: rgb(172, 108, 232);
+}
+
+#element {
+    color: rgb(172, 108, 232);
+}
+
+.img-container{
+    position: relative;
+    width: 490px; 
+    height: 550px;
+}
+
+.img-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.background-photo {
+    z-index: -1;
+    opacity: 0.5;
+}
+
+
+.secondSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.about {
+    height: 280px;
+    width: 600px;
+    border: 2px solid rgb(187, 131, 239);
+    border-radius: 15px;
+    padding: 30px;
+    padding-bottom: 20px;
+}
+
+.thirdSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.skills {
+    height: 550px;
+    width: 450px;
+    border: 1px solid rgb(187, 131, 239);
+    border-radius: 15px;
+    padding: 30px;
+    padding-bottom: 70px;
+    margin-left: 150px;
+}
+
+.skills ul li {
+    list-style-type: none;
+    font-size: 20px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+.forthSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.projects {
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.name {
+    display: inline-block;
+    width: 60%;
+    padding: 0 0 100px 50px;
+    border-right: 1px solid rgb(108, 108, 229);
+}
+
+.name>div {
+    width: 100%;
+    height: 30%;
+    margin-top: 30px;
+}
+
+.name h2 {
+    color: rgb(187, 131, 239);
+}
+
+.icon {
+    display: inline-block;
+    margin-left: 50px;
+    height: 600px;
+    width: 40%;
+    padding-top: 20px;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    margin-bottom: 90px;
+}
+
+.fifthSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.contact-me {
+    margin-left: 150px;
+    border: 1px solid rgb(187, 131, 239);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.contact-me form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me form label{
+    margin-left: 0;
+}
+.contact-me form input {
+    height: 30px;
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.contact-me form textarea {
+    height: 100px;
+    width: 350px;
+}
+
+.footer {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 13, 82);
+}
+
+.contact {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.contact a{
+    color: white;
+}
+
+.social-media {
+    margin-top: 20px;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media i {
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+}
+
+.copy-right {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
